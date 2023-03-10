@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 751 hello ; chown julien:julien hello
+setfacl -m u:julien:o=wx -m g:julien:o=wx hello
