@@ -1,2 +1,3 @@
 #!/bin/bash
 setfacl -m u:julien:o=wx -m g:julien:o=wx hello
+chmod 753 hello
